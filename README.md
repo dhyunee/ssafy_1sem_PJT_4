@@ -27,7 +27,7 @@
 ![image](https://user-images.githubusercontent.com/81145399/195278910-4938bd74-9831-44b1-9e3c-75ad4583d6ce.png)
 
 이벤트 상세 화면 ( 리뷰 이벤트 )
-![image](https://user-images.githubusercontent.com/81145399/195280129-c8805e28-c994-4368-9db7-de70e131d494.png)
+![image](https://user-images.githubusercontent.com/81145399/195280230-04bd0a8e-6144-4fa6-a0b1-3a87beccbe5a.png)
 
 1-1. 회원 가입된 고객들만 접근 가능함
 1-2. 기간에 따라서 보이고 안보이고-> 이벤트 기간 지나면 비활성화
