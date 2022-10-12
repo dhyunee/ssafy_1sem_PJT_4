@@ -23,10 +23,11 @@
 1. 이벤트 노출
 
 이벤트 메인 화면
-![image](https://user-images.githubusercontent.com/81145399/195272550-4665bfd9-ed63-4936-947f-3c7891059e9e.png)
+
+![image](https://user-images.githubusercontent.com/81145399/195278910-4938bd74-9831-44b1-9e3c-75ad4583d6ce.png)
 
 이벤트 상세 화면 ( 리뷰 이벤트 )
-![image](https://user-images.githubusercontent.com/81145399/195272666-a5b9b26b-cb90-4af6-b576-9927db520a6e.png)
+![image](https://user-images.githubusercontent.com/81145399/195278963-9ea760a6-466d-4f48-98ae-3b3f40d0a434.png)
 
 1-1. 회원 가입된 고객들만 접근 가능함
 1-2. 기간에 따라서 보이고 안보이고-> 이벤트 기간 지나면 비활성화
