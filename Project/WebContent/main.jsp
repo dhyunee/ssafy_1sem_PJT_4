@@ -49,6 +49,7 @@
               <li class="active"><a href="mypage.jsp">MyPage</a></li>
               <li class="active"><a href="index.jsp">Logout</a></li>
               <li class="active"><a id="notice" href="notice.jsp">Notice</a></li>
+              <li class="active"><a href="event.jsp">Event</a></li>
             </ul>
 
             <a

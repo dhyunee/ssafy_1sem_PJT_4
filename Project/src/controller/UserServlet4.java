@@ -14,7 +14,7 @@ import dto.UserDto;
 import service.UserService;
 import service.UserServiceImpl;
 
-@WebServlet("/eventpart")
+@WebServlet("/review")
 public class UserServlet4 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	UserService userService = UserServiceImpl.getInstance();
