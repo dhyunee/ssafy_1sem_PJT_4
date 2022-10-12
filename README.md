@@ -26,7 +26,8 @@
 
 ![image](https://user-images.githubusercontent.com/81145399/195278910-4938bd74-9831-44b1-9e3c-75ad4583d6ce.png)
 
-
+  
+  
 이벤트 상세 화면 ( 리뷰 이벤트 )
 ![image](https://user-images.githubusercontent.com/81145399/195278963-9ea760a6-466d-4f48-98ae-3b3f40d0a434.png)
 
