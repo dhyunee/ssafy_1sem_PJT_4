@@ -40,6 +40,8 @@
 
 2-1. register 버튼 누르면 DB에서 이벤트 미참여 고객 코드 002에서 001로 바뀜
 
+
+
 ![image](https://user-images.githubusercontent.com/81145399/195276742-d634152c-a21f-4e18-ab50-e431a0729d9b.png)
 
 2-2. alert로 이벤트 참여 확인 창 띄움
