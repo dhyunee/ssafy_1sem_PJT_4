@@ -95,5 +95,29 @@ public class UserDaoImpl implements UserDao {
 		
 		return ret;
 	}
+	@Override
+	public int userEventPart(String userEmail) {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		int ret = -1;
+		
+		try {
+			con = DBManager.getConnection();
+			StringBuilder sb = new StringBuilder();
+			sb.append(" Update users set user_event_part='001' where user_email=? ");
+			pstmt = con.prepareStatement(sb.toString());
+			pstmt.setString(1, userEmail);
+			
+			ret = pstmt.executeUpdate(); // 영향받은 row 수 return
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			DBManager.releaseConnection(rs, pstmt, con);
+		}
+		
+		return ret;
+	}
 
 }

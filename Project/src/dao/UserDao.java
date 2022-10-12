@@ -8,4 +8,6 @@ public interface UserDao {
 	int userModify(UserDto userDto);
 
 	int userWithdraw(String userEmail);
+	
+	int userEventPart(String userEmail);
 }

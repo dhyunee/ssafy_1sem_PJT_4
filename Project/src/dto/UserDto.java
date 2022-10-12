@@ -10,7 +10,7 @@ public class UserDto {
     private String userProfileImageUrl;
     private Date userRegisterDate;
     private String userState;
-    
+    private String userEventPart;
 	public int getUserSeq() {
 		return userSeq;
 	}
@@ -53,15 +53,18 @@ public class UserDto {
 	public void setUserState(String userState) {
 		this.userState = userState;
 	}
-	
+	public String getUserEventPart() {
+		return userEventPart;
+	}
+	public void setUserEventPart(String userEventPart) {
+		this.userEventPart = userEventPart;
+	}
 	@Override
 	public String toString() {
 		return "UserDto [userSeq=" + userSeq + ", userName=" + userName + ", userPassword=" + userPassword
 				+ ", userEmail=" + userEmail + ", userProfileImageUrl=" + userProfileImageUrl + ", userRegisterDate="
-				+ userRegisterDate + ", userState=" + userState + "]";
+				+ userRegisterDate + ", userState=" + userState + ", userEventPart=" + userEventPart + "]";
 	}
-    
-    
-    
+	
     
 }

@@ -177,6 +177,22 @@
       // 마커가 지도 위에 표시되도록 설정합니다
       marker.setMap(map);
       
+      var linePath = [
+      	new kakao.maps.LatLng(37.5752, 127.004),
+      	new kakao.maps.LatLng(37.581287084818825, 127.00184536311897)
+      	  ];
+        
+        var polyline = new kakao.maps.Polyline({
+      	    path: linePath, // 선을 구성하는 좌표배열 입니다
+      	    strokeWeight: 5, // 선의 두께 입니다
+      	    strokeColor: '#FFAE00', // 선의 색깔입니다
+      	    strokeOpacity: 0.7, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+      	    strokeStyle: 'solid' // 선의 스타일입니다
+      	});
+        
+        polyline.setMap(map);  
+    
+      
       // 마커를 클릭했을 때 마커 위에 표시할 인포윈도우를 생성합니다
       var iwContent = `<div style="padding: 5px;">
         <div class="wishButton">

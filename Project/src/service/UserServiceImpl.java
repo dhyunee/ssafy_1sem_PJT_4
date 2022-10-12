@@ -27,5 +27,9 @@ public class UserServiceImpl implements UserService {
 	public int userWithdraw(String userEmail) {
 		return userDao.userWithdraw(userEmail);
 	}
+	@Override
+	public int userEventPart(String userEmail) {
+		return userDao.userEventPart(userEmail);
+	}
 
 }
