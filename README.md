@@ -42,6 +42,6 @@
 
 
 
-![image](https://user-images.githubusercontent.com/81145399/195276742-d634152c-a21f-4e18-ab50-e431a0729d9b.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/81145399/195278359-cc3f4f4a-99d2-4938-b87e-781976fc670c.gif)
 
 2-2. alert로 이벤트 참여 확인 창 띄움
